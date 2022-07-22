@@ -1,3 +1,3 @@
 # SocialTree-RocketSeat
-Social Tree Simples utilizando HTML e CSS
-(Não Finalizado)
+Neste desafio você deve criar uma página com uma lista de links (menu) que pode ser usada em perfis de redes sociais para direcionar o usuário para o local escolhido.
+(HTML/CSS)
