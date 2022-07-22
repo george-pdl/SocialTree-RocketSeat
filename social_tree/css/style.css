@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+    background: #201b2c;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto {
+    display: block;
+    width: 15%;
+    height: auto;
+    margin: 2% auto 0;
+    padding: 0.4%;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: goldenrod;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.username {
+    color: aliceblue;
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 4%;
+
+}
+
+.botao1 {
+    box-shadow: 0px 10px 40px #00000056;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 1% 12%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.botao2 {
+    box-shadow: 0px 10px 40px #00000056;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 1% 13.1%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.botao3 {
+    box-shadow: 0px 10px 40px #00000056;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 1% 12.7%;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 3.5%;
+    margin-left: -3%;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 950px) {
+    .foto {
+        width: 40%;
+        margin-top: 8%;
+    }
+
+    .username {
+        font-size: 25px;
+    }
+
+    .botao1 {
+        padding: 5% 30%;
+        font-size: 30px;
+    }
+
+    .botao2 {
+        padding: 5% 34%;
+        font-size: 30px;
+    }
+
+    .botao3 {
+        padding: 5% 32.9%;
+        font-size: 30px;
+    }
+
+    li {
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-left: -6%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .foto {
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    .botao1 {
+        padding: 5% 30%;
+    }
+
+    .botao2 {
+        padding: 5% 34%;
+    }
+
+    .botao3 {
+        padding: 5% 32.9%;
+    }
+
+    li {
+        margin-top: 15%;
+        margin-bottom: 20%;
+        margin-left: -15%;
+    }
+}
